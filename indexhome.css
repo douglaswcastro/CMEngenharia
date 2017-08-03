@@ -1,0 +1,82 @@
+@charset "utf-8";
+ 
+body {
+	
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+
+h1{
+	color: #FFF;
+	font-family:"Comic Sans MS", cursive;
+	font-size:20px;
+}
+h2{
+	color: #FFF;
+	font-family:"Comic Sans MS", cursive;
+	font-size:18px;
+	}
+
+h3{
+	color: #FFF;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	}
+
+	
+#cabecalho{
+	color:#999;
+	text-align:left;
+	alignment-adjust:auto;
+	padding: 40px 20px;
+}
+
+#logocab{
+	height:auto;
+	width:100px;
+	text-align:right;
+	alignment-adjust:auto;
+
+}
+
+header {
+	position: relative;
+}
+#homeimg{
+	height:auto;
+	width:300px;
+	text-align:right;
+	alignment-adjust:auto;
+	text-align:justify;
+}
+
+#rodape{    
+     position: relative; 
+ 
+    width: 100%; 
+    
+}
+#mapa{
+	
+
+	text-align:left;
+	 float: left;
+    border: transparent thin solid;
+    padding: 5px;
+    margin: 0px 10px 10px 0;	
+}
+
+#texto{
+	color:#FFF;
+	text-align:center;
+	 
+	}
+	
+#historia{
+	float:left;
+	text-align:left;
+	alignment-adjust:auto;
+	}
+
+	
+	
