@@ -32,17 +32,9 @@
         
     </div>
 
-  	<div id="textomapa">
- 		<h3> Rua Juciliano Narciso Campos, 957<br />Bosque de Ibirité, Ibirité - MG, 32400-000</h3>
-    	<h3>Email: contato@cmengenhariabh.com.br</h3>
-    	<h3>Telefone: (31) 3598-3145</h3>
-	</div>
-	<div id="rodape">
-		
-        <footer>
-			<h3 align="right">Desenvolvido por: DTecInformática</h3>
-		</footer>
-	</div>
+  	<?php
+include("footer.php");
+?>
 <script type="text/javascript">
 var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgDown:"SpryAssets/SpryMenuBarDownHover.gif", imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
     </script>
