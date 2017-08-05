@@ -3,11 +3,19 @@
 <head>
 <meta charset="utf-8">
 <title>CM Engenharia BH</title>
-<link href="indexhome.css" rel="stylesheet" type="text/css">
+<link href="indexhome.css" rel="stylesheet" type="text/css"/>
 <link href="SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css">
 <script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
 </head>
 <body background="imagens/fundo2.jpg">
+<script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+<?php
+include("cabecalho.php");
+?>
 	<style>
 		
 		

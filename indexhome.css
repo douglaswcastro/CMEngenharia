@@ -1,35 +1,28 @@
 @charset "utf-8";
  
 body {
-	
+	color: black;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 
 h1{
-	color: #FFF;
-	font-family:"Comic Sans MS", cursive;
+	color:black;
+	font-family:'Times New Roman', Times, serif;
 	font-size:20px;
 }
 h2{
-	color: #FFF;
+	color: black;
 	font-family:"Comic Sans MS", cursive;
 	font-size:18px;
 	}
 
 h3{
-	color: #FFF;
+	color: black;
 	font-family:Arial, Helvetica, sans-serif;
 	font-size:16px;
 	}
 
-	
-#cabecalho{
-	color:#999;
-	text-align:left;
-	alignment-adjust:auto;
-	padding: 40px 20px;
-}
 
 #logocab{
 	height:auto;
@@ -39,9 +32,6 @@ h3{
 
 }
 
-header {
-	position: relative;
-}
 #homeimg{
 	height:auto;
 	width:300px;
@@ -50,12 +40,6 @@ header {
 	text-align:justify;
 }
 
-#rodape{    
-     position: relative; 
- 
-    width: 100%; 
-    
-}
 #mapa{
 	
 
@@ -66,12 +50,6 @@ header {
     margin: 0px 10px 10px 0;	
 }
 
-#texto{
-	color:#FFF;
-	text-align:center;
-	 
-	}
-	
 #historia{
 	float:left;
 	text-align:left;
