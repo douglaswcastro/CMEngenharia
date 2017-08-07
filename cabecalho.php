@@ -27,8 +27,8 @@
 <form onSubmit="return checa_formulario(this)" action="mail.php" method="post" enctype="multipart/form-data" name="email">
 <table>
 <tr>
-<td align="right"><span class="texto">Nome:</span></td>
-<td><input name="nome" type="text" id="nome" required border="10"></td>
+<td><div align="right" class="texto">Nome:</div></td>
+<td><input name="nome" type="text" id="nome" required></td>
 </tr>
 <tr>
 <td align="right">De:</td>
