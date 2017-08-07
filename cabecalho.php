@@ -8,13 +8,13 @@
 <div class="navbar navbar-inverse">
   <div class="navbar-inner">
     <img src="imagens/logo.gif" width="50" height="50" align="left"/>
-    <ul class="nav">
-      <li class=""><a href="index.php">Início</a></li>
-      <li><a href="Missao visao valores.php">Misão Visão e Valores</a></li>
-      <li><a href="etica.php">etica</a></li>
-      <li><a href="projetos.php">Alguns Projetos</a></li>
-      <li><a href="contato.php">Entre em contato</a></li>
-      <li><a href="#myModal" role="button" data-toggle="modal">Trabalhe Conosco</a></li>
+    <a class="brand" href="#">CM Engenharia BH</a>
+    <ul  class="nav nav-pills">
+      <li class="divider-vertical" class="active"><a href="index.php">Início</a></li>
+      <li class="divider-vertical"><a href="Missao visao valores.php">Quem Somos</a></li>
+      <li class="divider-vertical"><a href="projetos.php">Projetos</a></li>
+      <li class="divider-vertical"><a href="contato.php">Entre em contato</a></li>
+      <li class="divider-vertical"><a href="#myModal" role="button" data-toggle="modal">Trabalhe Conosco</a></li>
     </ul>
   </div>
 </div>
@@ -27,7 +27,7 @@
 <form onSubmit="return checa_formulario(this)" action="mail.php" method="post" enctype="multipart/form-data" name="email">
 <table>
 <tr>
-<td align="right"><span class="texto">Nome</span></td>
+<td align="right"><span class="texto">Nome:</span></td>
 <td><input name="nome" type="text" id="nome" required border="10"></td>
 </tr>
 <tr>
@@ -35,18 +35,15 @@
 <td><input name="email_from" type="email" class="email" required></td>
 </tr>
 <tr>
-<td><div align="right" class="texto"></div></td>
-</tr>
-<tr>
-<td><div align="right" class="texto">Assunto</div></td>
+<td><div align="right" class="texto">Assunto:</div></td>
 <td><input name="assunto" type="text" id="assunto" required></td>
 </tr>
 <tr>
-<td><div align="right" class="texto">Mensagem</div></td>
+<td><div align="right" class="texto">Mensagem:</div></td>
 <td><textarea name="mensagem" id="mensagem" required></textarea></td>
 </tr>
 <tr>
-<td><div align="right" class="texto">Anexo</div></td>
+<td><div align="right" class="texto">Anexo:</div></td>
 <td><input name="arquivo" type="file" required></td>
 </tr>
 </table>

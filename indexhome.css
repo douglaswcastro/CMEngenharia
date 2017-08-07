@@ -28,33 +28,24 @@ h3{
 	height:auto;
 	width:100px;
 	text-align:right;
-	alignment-adjust:auto;
-
 }
 
 #homeimg{
 	height:auto;
 	width:300px;
 	text-align:right;
-	alignment-adjust:auto;
 	text-align:justify;
-}
-
-#mapa{
-	
-
-	text-align:left;
-	 float: left;
-    border: transparent thin solid;
-    padding: 5px;
-    margin: 0px 10px 10px 0;	
 }
 
 #historia{
 	float:left;
 	text-align:left;
-	alignment-adjust:auto;
 	}
+
+#myCarousel{
+	width: 500px;
+	height: 500px; 
+}
 
 	
 	
