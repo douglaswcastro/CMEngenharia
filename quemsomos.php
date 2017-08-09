@@ -1,171 +1,73 @@
-﻿<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>CM Engenharia BH</title>
-<link href="indexhome.css" rel="stylesheet" type="text/css"/>
-<link href="SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css">
-<script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Bootstrap -->
-<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
-</head>
-<body background="imagens/fundo2.jpg">
-<script src="http://code.jquery.com/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-<?php
+﻿<?php
 include("cabecalho.php");
 ?>
-	<style>
-		
-		
-		a,img {border: none;}
-		.trs {-webkit-transition:all ease-out 0.5s;
-			-moz-transition:all ease-out 0.5s;
-			-o-transition:all ease-out 0.5s;
-			-ms-transition:all ease-out 0.5s;
-			transition:all ease-out 0.5s;}
-		
-		#slider {position: relative; z-index: 1;}
-		#slider a { position: absolute; top: 0; left: 0; opacity: 0;filter:alpha(opacity=0);}
-		.ativo {opacity: 1!important; filter:alpha(opacity=100)!important;}
-		
-		/*controladores*/
-		span {background: #0190EE; cursor: pointer; opacity: 0;filter:alpha(opacity=0); position: absolute; bottom: 40%; width: 43px; height: 43px; z-index: 5;}
-		.next {right: 10px;}
-		.next:before,.next:after {left: 21px;}
-		.next:before {
-			-webkit-transform: rotate(-42deg);
-			top: 5px;
-		}
-		.next:after {
-			-webkit-transform: rotate(-132deg);
-			top: 19px;
-		}
-		.next:before,.next:after,.prev:before,.prev:after {content: "";
-			height: 20px;
-			background: #fff;
-			width: 1px;
-			position: absolute;
-		}
+<div class="row-fluid" style="margin: 20px;"> 
+	<div class="span4">
+	<label><h1>Missão</h1></label>
+	<label><h2>Entrega do empreendimento dentro do prazo atendendo<br>
+	o cronograma da obra com máxima qualidade,<br>
+	capazes de superar a expectativa dos nossos clientes
+	</h2></label>
+	</div>
 
-		.prev {left: 10px;}
-		.prev:before,.prev:after {left: 18px;}
-		.prev:before {
-			-webkit-transform: rotate(42deg);
-			top: 5px;
-		}
-		.prev:after {
-			-webkit-transform: rotate(132deg);
-			top: 19px;
-		}
+	<div class="span4">
+	<label><h1>Visão</h1></label>
+	<label><h2>Até 2017 nós seremos, no<br>
+	segmento médio da construção civil,<br>
+	uma referência em compromisso, qualidade e satisfação dos clientes.
+	</h2></label>
+	</div>
+
+	<div class="span4">
+	<label><h1>Valores</h1></label>
+	<label><h2>Segurança, conformidade,<br>
+	e confiabilidade:<br>
+	Satisfação do cliente é nosso primeiro valor.
+	</h2></label>
+	</div>
+</div>
+
+<div class="row-fluid" style="margin: 20px;">
+<div class="span12">
+	<label align="center"><h1>Ética</h1></label>
+	<label align="center"><h2>Tratamos uns aos outros e nossos clientes<br> 
+	com transparência, dignidade e respeito a vida.<br>
+	Gestão participativa: Trabalhamos num ambiente harmônico e amigável,<br>
+	com envolvimento e participação dos colaboradores para alcance<br>
+	dos objetivos e metas da empresa.</h2></label>
+</div>
+</div>
 
 
-		figure:hover span {opacity: 0.76;filter:alpha(opacity=76);}
+<div class="row-fluid" style="margin: 20px;">
+<div class="span3">
+	<label><h1>Responsabilidade empresarial</h1></label>
+	<label><h2>Somos responsáveis pelas nossas ações<br>
+	e cumprimos nossos compromissos.</h2></label>
+</div>
 
-		figure {
-			max-width: 937px;
-			height: 500px;
-			position: relative;
-			overflow: hidden;
-			margin: 50px auto;
-		}
+<div class="span3">
+	<label><h1>Qualidade</h1></label>
+	<label><h2>Buscamos constantemente o aperfeiçoamento dos colaboradores<br>
+	através de  métodos construtivos em busca<br>
+	da diminuição do desperdício de materiais e redução do custo da obra.
+	</h2></label>
+</div>
 
-		figcaption {padding-left: 20px;color: #fff; font-family: "Kaushan Script","Lato","arial"; font-size: 22px; background: rgba(1, 144, 238, 0.76); width: 100%; position: absolute; bottom: 0; left: 0; line-height: 55px; height: 55px; z-index: 5}
-	</style>
+<div class="span3">
+	<label><h1>Inovação</h1></label>
+ 	<h2>Facilitamos a vida do cliente através de
+	inovações tecnológicas agregadas aos produtos oferecidos.
+	</h2></label>
+</div>
 
-	<figure>
-		<span class="trs next"></span>
-		<span class="trs prev"></span>
-
-		<div id="slider">
-			<a class="trs"><img src="imagens/capa1.jpg" alt="Legenda da imagem 1" /></a>
-			<a class="trs"><img src="imagens/capa2.jpg" alt="Legenda da imagem 2" /></a>		
-            <a class="trs"><img src="imagens/capa3.jpg" alt="Legenda da imagem 2" /></a>	
-            <a class="trs"><img src="imagens/capa4.jpg" alt="Legenda da imagem 2" /></a>	
-            
-		</div>
-
-		<figcaption></figcaption>
-	</figure>
-
-	<script type="text/javascript">
-		function setaImagem(){
-			var settings = {
-				primeiraImg: function(){
-					elemento = document.querySelector("#slider a:first-child");
-					elemento.classList.add("ativo");
-					this.legenda(elemento);
-				},
-
-				slide: function(){
-					elemento = document.querySelector(".ativo");
-
-					if(elemento.nextElementSibling){
-						elemento.nextElementSibling.classList.add("ativo");
-						settings.legenda(elemento.nextElementSibling);
-						elemento.classList.remove("ativo");
-					}else{
-						elemento.classList.remove("ativo");
-						settings.primeiraImg();
-					}
-
-				},
-
-				proximo: function(){
-					clearInterval(intervalo);
-					elemento = document.querySelector(".ativo");
-					
-					if(elemento.nextElementSibling){
-						elemento.nextElementSibling.classList.add("ativo");
-						settings.legenda(elemento.nextElementSibling);
-						elemento.classList.remove("ativo");
-					}else{
-						elemento.classList.remove("ativo");
-						settings.primeiraImg();
-					}
-					intervalo = setInterval(settings.slide,4000);
-				},
-
-				anterior: function(){
-					clearInterval(intervalo);
-					elemento = document.querySelector(".ativo");
-					
-					if(elemento.previousElementSibling){
-						elemento.previousElementSibling.classList.add("ativo");
-						settings.legenda(elemento.previousElementSibling);
-						elemento.classList.remove("ativo");
-					}else{
-						elemento.classList.remove("ativo");						
-						elemento = document.querySelector("a:last-child");
-						elemento.classList.add("ativo");
-						this.legenda(elemento);
-					}
-					intervalo = setInterval(settings.slide,4000);
-				},
-
-				legenda: function(obj){
-					var legenda = obj.querySelector("img").getAttribute("alt");
-					document.querySelector("figcaption").innerHTML = legenda;
-				}
-
-			}
-
-
-			//chama o slide
-			settings.primeiraImg();
-
-			//chama a legenda
-			settings.legenda(elemento);
-
-			//chama o slide à um determinado tempo
-			var intervalo = setInterval(settings.slide,4000);
-			document.querySelector(".next").addEventListener("click",settings.proximo,false);
-			document.querySelector(".prev").addEventListener("click",settings.anterior,false);
-
-		}
-
-		window.addEventListener("load",setaImagem,false);
-	</script>
-</body>
-</html>
+<div class="span3">
+	<label><h1>Responsabilidade ambiental:</h1></label>
+ 	<h2>Respeitamos o meio ambiente seguindo
+	as normas e contribuímos com a diminuição no impacto ambiental.
+	</h2></label>
+</div>
+</div>
+<?php
+include("footer.php");
+?>

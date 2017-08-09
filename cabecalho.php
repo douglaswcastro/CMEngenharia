@@ -1,24 +1,36 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-  <head>
-  <link href="indexhome.css" rel="stylesheet" type="text/css"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  </head>
-  <body>
+<head>
+<meta charset="utf-8">
+<title>CM Engenharia BH</title>
+<link href="SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css">
+<script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+</head>
+<body background="imagens/fundo2.jpg">
+<script src="http://code.jquery.com/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+ <link href="css/bootstrap-responsive.css" rel="stylesheet" media="screen">
+ <link href="css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
+ <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+ <link href="css/bootstrap.css" rel="stylesheet" media="screen">
+<link href="css/indexhome.css" rel="stylesheet" type="text/css"/>
+    
 <div class="navbar navbar-inverse">
   <div class="navbar-inner">
     <img src="imagens/logo.gif" width="50" height="50" align="left"/>
     <a class="brand" href="#">CM Engenharia BH</a>
     <ul  class="nav nav-pills">
       <li class="divider-vertical" class="active"><a href="index.php">Início</a></li>
-      <li class="divider-vertical"><a href="Missao visao valores.php">Quem Somos</a></li>
+      <li class="divider-vertical"><a href="quemsomos.php">Quem Somos</a></li>
       <li class="divider-vertical"><a href="projetos.php">Projetos</a></li>
       <li class="divider-vertical"><a href="contato.php">Entre em contato</a></li>
       <li class="divider-vertical"><a href="#myModal" role="button" data-toggle="modal">Trabalhe Conosco</a></li>
     </ul>
   </div>
 </div>
- <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+ <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" >
   <div class="modal-header">
     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
     <h3 id="myModalLabel">Trabalhe Conosco</h3>
