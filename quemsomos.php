@@ -61,10 +61,11 @@ include("cabecalho.php");
 	</h2></label>
 </div>
 
-<div class="span3">
+<div class="span3" style="pading-rigth:20px;">
 	<label><h1>Responsabilidade ambiental:</h1></label>
- 	<h2>Respeitamos o meio ambiente seguindo
-	as normas e contribuímos com a diminuição no impacto ambiental.
+ 	<h2>Respeitamos o meio ambiente seguindo </br> 
+	as normas e contribuímos
+	com a diminuição no impacto ambiental.
 	</h2></label>
 </div>
 </div>
