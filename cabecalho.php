@@ -16,24 +16,27 @@
  <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
  <link href="css/bootstrap.css" rel="stylesheet" media="screen">
 <link href="css/indexhome.css" rel="stylesheet" type="text/css"/>
-    
-<div class="navbar navbar-inverse">
+
+<div class="navbar navbar-static-top">
   <div class="navbar-inner">
-    <img src="imagens/logo.gif" width="50" height="50" align="left"/>
+  <div class="container">
     <a class="brand" href="#">CM Engenharia BH</a>
     <ul  class="nav nav-pills">
       <li class="divider-vertical" class="active"><a href="index.php">Início</a></li>
       <li class="divider-vertical"><a href="quemsomos.php">Quem Somos</a></li>
+    <img src="imagens/logo.gif" width="50" height="50" align="left"/>
       <li class="divider-vertical"><a href="projetos.php">Projetos</a></li>
       <li class="divider-vertical"><a href="contato.php">Entre em contato</a></li>
       <li class="divider-vertical"><a href="#myModal" role="button" data-toggle="modal">Trabalhe Conosco</a></li>
     </ul>
+    </div>
   </div>
 </div>
+
  <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" >
   <div class="modal-header">
     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-    <h3 id="myModalLabel">Trabalhe Conosco</h3>
+    <span id="myModalLabel">Trabalhe Conosco</span>
   </div>
   <div class="modal-body">
 <form onSubmit="return checa_formulario(this)" action="mail.php" method="post" enctype="multipart/form-data" name="email">
