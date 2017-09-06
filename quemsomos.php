@@ -2,7 +2,7 @@
 include("cabecalho.php");
 ?>
 <div class="row-fluid" style="margin: 20px;"> 
-	<div class="span3">
+	<div class="span4">
 	<label><h1>Missão</h1></label>
 	<label><h2>Entrega do empreendimento dentro do prazo atendendo<br>
 	o cronograma da obra com máxima qualidade,<br>
@@ -10,7 +10,7 @@ include("cabecalho.php");
 	</h2></label>
 	</div>
 
-	<div class="span3">
+	<div class="span4">
 	<label><h1>Visão</h1></label>
 	<label><h2>Até 2017 nós seremos, no<br>
 	segmento médio da construção civil,<br>
@@ -18,7 +18,7 @@ include("cabecalho.php");
 	</h2></label>
 	</div>
 
-	<div class="span3">
+	<div class="span4">
 	<label><h1>Valores</h1></label>
 	<label><h2>Segurança, conformidade,<br>
 	e confiabilidade:<br>
@@ -26,11 +26,6 @@ include("cabecalho.php");
 	</h2></label>
 	</div>
 
-	<div class="span3">
-	<label><h1>Responsabilidade empresarial</h1></label>
-	<label><h2>Somos responsáveis pelas nossas ações<br>
-	e cumprimos nossos compromissos.</h2></label>
-	</div>
 </div>
 
 <div class="row-fluid" style="margin: 20px;">
