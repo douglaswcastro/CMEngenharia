@@ -1,0 +1,51 @@
+@charset "utf-8";
+ 
+body {
+	color: black;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+h1{
+	color:whitesmoke;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:20px;
+}
+h2{
+	color:whitesmoke;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:18px;
+	}
+
+h3{
+	color:whitesmoke;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:16px;
+	}
+
+
+#logocab{
+	height:auto;
+	width:100px;
+	text-align:right;
+}
+
+#homeimg{
+	height:auto;
+	width:300px;
+	text-align:right;
+	text-align:justify;
+}
+
+#historia{
+	float:left;
+	text-align:left;
+	}
+
+#myCarousel{
+	width: 500px;
+	height: 500px; 
+}
+
+	
+	

@@ -55,3 +55,6 @@ mail($email,$assunto,$mensagem, $headers);
 echo"Email enviado com Sucesso!";
 }
 ?>
+<div class="alert alert-success">
+  Currículo Enviado Com Sucesso
+</div>
