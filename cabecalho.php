@@ -26,7 +26,7 @@
       <li class="divider-vertical"><a href="quemsomos.php">Quem Somos</a></li>
     <img src="imagens/logo.gif" width="50" height="50" align="left"/>
       <li class="divider-vertical"><a href="projetos.php">Projetos</a></li>
-      <li class="divider-vertical"><a href="contato.php">Entre em contato</a></li>
+      <li class="divider-vertical"><a href="contato.php">Localização</a></li>
       <li class="divider-vertical"><a href="#myModal" role="button" data-toggle="modal">Trabalhe Conosco</a></li>
     </ul>
     </div>
