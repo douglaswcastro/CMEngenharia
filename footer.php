@@ -5,6 +5,6 @@
     	
 </footer> 
 <footer>
-	<h3>Desenvolvido por: DTec.com.br</h3>
+	<h3>Desenvolvido por:<a href="https://dtec.azurewebsites.net"> Dtec</a></h3>
 </footer>
 </div>
