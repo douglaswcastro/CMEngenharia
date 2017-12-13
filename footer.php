@@ -5,6 +5,14 @@
     	
 </footer> 
 <footer>
-	<h3>Desenvolvido por:<a href="https://dtec.azurewebsites.net"> Dtec</a></h3>
+	
 </footer>
 </div>
+
+		<!-- Copyright -->
+		<div id="copyright" class="container">
+		<h3>Desenvolvido por:<a href="https://dtec.azurewebsites.net"> Dtec</a></h3>
+            </div>
+
+
+	</body>
